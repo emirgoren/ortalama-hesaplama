@@ -31,7 +31,7 @@ if(c>100 || c<0)
 	goto hatac;
 }
 
-// Math.Round metotu degeri yuvarlar. Ornegin 10,21314 gibi bir sonuc cikmasin diyedir.
+// Math.Round metodu degeri yuvarlar. Ornegin 10,21314 gibi bir sonuc cikmasin diyedir.
 // ',' den sonrasi ise kac haneli olacagini belirler.
 
 ort = Math.Round((a+b+c) / 3,1); 
