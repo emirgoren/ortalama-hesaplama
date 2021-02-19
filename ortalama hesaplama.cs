@@ -44,29 +44,3 @@ catch
 {
 	Console.WriteLine("Girdiginiz deger gecerli degil.");
 }
-
-// Islemin Metot uzerindeki ornegi:
-
-//double ab;
-//var myOrtalama = OrtalamaHesapla(150,82,91,out ab); // hata ornegini gorebilin diye ilk parametreye 150 degerini atadim ancak try-catch yapisi bunun icin daha uygun olacaktir.
-//
-//Console.WriteLine(myOrtalama);
-//
-//static double OrtalamaHesapla(double x, double y, double z, out double ab)
-//{
-//	ab = Math.Round((x+y+z) / 3,2);
-//	if(x>100 || y>100 || z>100)
-//	{
-//		Console.WriteLine("100'un ustunde deger girilemez.");
-//	}
-//	else if(x<0 || y<0 || z<0)
-//	{
-//		Console.WriteLine("0'dan kucuk deger girilemez");
-//	}
-//	else
-//	{
-//		return ab;
-//	}
-//	return 0;
-//}
-
